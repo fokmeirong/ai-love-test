@@ -7,16 +7,16 @@ import { motion, AnimatePresence } from 'framer-motion'
 import ProgressBar from '../progress-bar'
 import { questions } from './questions'
 
-interface Question {
-  id: number
-  title: string
-  description?: string
-  options: {
-    id: string
-    text: string
-    description?: string
-  }[]
-}
+// interface Question {
+//   id: number
+//   title: string
+//   description?: string
+//   options: {
+//     id: string
+//     text: string
+//     description?: string
+//   }[]
+// }
 
 export default function TestQuestions() {
   const router = useRouter()
